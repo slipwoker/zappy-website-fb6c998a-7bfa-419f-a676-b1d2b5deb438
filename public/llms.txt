@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+ליגת החלב כדורגל – הליגה הסגולה והשחורה שמרעישה את Top Eleven מ-2021 עד 2026. גלה את העולם שלנו, הצטרף למשפחה וחווה כדורגל אחר לגמרי!
+
+### סיפור הליגה
+https://example.com/league-story
+מ-2021 ועד 2026 – סיפור הקמתה של ליגת החלב כדורגל, הזהות הנועזת בסגול ושחור, והדרך שעשינו יחד. צלול לתוך ההיסטוריה שיצרנו!
+
+### חברות ראש ארגון
+https://example.com/membership
+רכוש עכשיו מנוי ראש ארגון ליגת החלב ותיהנה מיתרונות בלעדיים! רק 25 ש״ח ואתה חלק מהאליטה של ליגת החלב כדורגל. אל תפספס – המקומות מוגבלים!
+
+### צור קשר
+https://example.com/contact
+יש לך שאלה על ליגת החלב כדורגל? צור קשר עכשיו דרך וואטסאפ ותקבל מענה מהיר ואישי. אנחנו כאן בשבילך – לחץ ותתחבר ישירות לצוות ליגת החלב!
+
+### Products
+https://example.com/products
+המוצרים שלנו - ליגת החלב
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - ליגת החלב
+
+### Category
+https://example.com/category/:slug
+מוצרים - ליגת החלב
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
