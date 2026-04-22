@@ -13053,6 +13053,499 @@ body.accessibility-widget-visible ._access-menu {
     font-size: 1.2rem;
   }
 }
+
+/* AI-generated section */
+/* =============================================
+   CHAMPION SECTION — הפועל ספרייט
+   ============================================= */
+
+.champ-hapoel-sprite {
+  position: relative;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  background: #0a0010;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(109, 40, 217, 0.55) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 80% 100%, rgba(93, 28, 180, 0.35) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 30% at 10% 90%, rgba(141, 82, 255, 0.2) 0%, transparent 55%);
+  overflow: hidden;
+  padding: 0 0 80px;
+  text-align: center;
+}
+
+/* ---- Background Particles ---- */
+.champ-bg-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.champ-particle {
+  position: absolute;
+  color: rgba(141, 82, 255, 0.18);
+  font-size: 2rem;
+  animation: champ-float linear infinite;
+  user-select: none;
+}
+
+.champ-particle-1  { top: 8%;  left: 5%;  font-size: 1.4rem; animation-duration: 14s; animation-delay: 0s; }
+.champ-particle-2  { top: 15%; left: 88%; font-size: 2.2rem; animation-duration: 18s; animation-delay: -3s; }
+.champ-particle-3  { top: 30%; left: 12%; font-size: 1.8rem; animation-duration: 20s; animation-delay: -7s; }
+.champ-particle-4  { top: 45%; left: 92%; font-size: 1.3rem; animation-duration: 16s; animation-delay: -2s; }
+.champ-particle-5  { top: 60%; left: 4%;  font-size: 2.5rem; animation-duration: 22s; animation-delay: -9s; }
+.champ-particle-6  { top: 70%; left: 80%; font-size: 1.6rem; animation-duration: 17s; animation-delay: -5s; }
+.champ-particle-7  { top: 85%; left: 20%; font-size: 1.2rem; animation-duration: 13s; animation-delay: -1s; }
+.champ-particle-8  { top: 90%; left: 70%; font-size: 2rem;   animation-duration: 19s; animation-delay: -4s; }
+
+@keyframes champ-float {
+  0%   { transform: translateY(0)   rotate(0deg)   scale(1); opacity: 0.15; }
+  33%  { transform: translateY(-22px) rotate(15deg)  scale(1.1); opacity: 0.3; }
+  66%  { transform: translateY(10px)  rotate(-10deg) scale(0.95); opacity: 0.2; }
+  100% { transform: translateY(0)   rotate(0deg)   scale(1); opacity: 0.15; }
+}
+
+/* ---- Ribbon ---- */
+.champ-ribbon {
+  position: relative;
+  z-index: 2;
+  background: var(--gradient-primary, linear-gradient(90deg, #5B2CCB 0%, #7D43E6 55%, #8D52FF 100%));
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 10px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: 0 2px 20px rgba(109, 40, 217, 0.6);
+}
+
+.champ-ribbon span {
+  flex-shrink: 0;
+}
+
+/* ---- Container ---- */
+.champ-container {
+  position: relative;
+  z-index: 2;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 60px 24px 0;
+}
+
+/* ---- Trophy ---- */
+.champ-trophy-wrap {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.champ-trophy-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(141, 82, 255, 0.55) 0%, transparent 70%);
+  animation: champ-pulse 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes champ-pulse {
+  0%, 100% { transform: translate(-50%, -50%) scale(1);   opacity: 0.7; }
+  50%       { transform: translate(-50%, -50%) scale(1.25); opacity: 1; }
+}
+
+.champ-trophy-icon {
+  font-size: 5.5rem;
+  line-height: 1;
+  display: block;
+  filter: drop-shadow(0 0 24px rgba(141, 82, 255, 0.9)) drop-shadow(0 4px 12px rgba(0,0,0,0.6));
+  animation: champ-trophy-bounce 3s ease-in-out infinite;
+}
+
+@keyframes champ-trophy-bounce {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50%       { transform: translateY(-8px) scale(1.04); }
+}
+
+.champ-stars-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.champ-star {
+  color: #f5c518;
+  text-shadow: 0 0 10px rgba(245, 197, 24, 0.8);
+  animation: champ-star-twinkle 2s ease-in-out infinite alternate;
+}
+
+.champ-star-lg  { font-size: 1.6rem; animation-delay: 0.2s; }
+.champ-star-xl  { font-size: 2.2rem; animation-delay: 0s; }
+
+@keyframes champ-star-twinkle {
+  0%   { opacity: 0.7; transform: scale(0.95); }
+  100% { opacity: 1;   transform: scale(1.1); }
+}
+
+/* ---- Sub Label ---- */
+.champ-sub-label {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(200, 170, 255, 0.85);
+  margin: 0 0 14px;
+}
+
+/* ---- Team Name ---- */
+.champ-team-name {
+  font-size: clamp(2.8rem, 8vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  margin: 0 0 18px;
+  letter-spacing: -0.02em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.champ-team-hapoel {
+  color: #c4a0ff;
+  font-size: 0.55em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  display: block;
+}
+
+.champ-team-sprite {
+  background: var(--gradient-primary, linear-gradient(90deg, #5B2CCB 0%, #7D43E6 55%, #8D52FF 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  filter: drop-shadow(0 0 30px rgba(141, 82, 255, 0.7));
+  position: relative;
+}
+
+.champ-team-sprite::after {
+  content: 'ספרייט';
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-primary, linear-gradient(90deg, #5B2CCB 0%, #7D43E6 55%, #8D52FF 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(18px);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* ---- Season Badge ---- */
+.champ-season-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(109, 40, 217, 0.22);
+  border: 1px solid rgba(141, 82, 255, 0.45);
+  border-radius: 50px;
+  padding: 8px 22px;
+  color: #d4b8ff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  margin-bottom: 28px;
+  backdrop-filter: blur(6px);
+}
+
+.champ-season-icon {
+  font-size: 0.85rem;
+  animation: champ-zap 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes champ-zap {
+  0%   { opacity: 0.6; transform: scale(0.9); }
+  100% { opacity: 1;   transform: scale(1.15); }
+}
+
+/* ---- Description ---- */
+.champ-desc {
+  font-size: clamp(1rem, 2.5vw, 1.18rem);
+  line-height: 1.8;
+  color: rgba(220, 200, 255, 0.88);
+  max-width: 620px;
+  margin: 0 auto 36px;
+}
+
+.champ-desc strong {
+  color: #c4a0ff;
+  font-weight: 700;
+}
+
+/* ---- Stats Strip ---- */
+.champ-stats-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  background: rgba(109, 40, 217, 0.15);
+  border: 1px solid rgba(141, 82, 255, 0.3);
+  border-radius: 16px;
+  padding: 22px 30px;
+  margin-bottom: 40px;
+  backdrop-filter: blur(8px);
+  flex-wrap: wrap;
+}
+
+.champ-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 0 32px;
+  flex: 1 1 auto;
+  min-width: 100px;
+}
+
+.champ-stat-num {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #e0c8ff;
+  line-height: 1;
+  text-shadow: 0 0 14px rgba(141, 82, 255, 0.7);
+}
+
+.champ-stat-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(196, 160, 255, 0.75);
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.champ-stat-divider {
+  width: 1px;
+  height: 48px;
+  background: rgba(141, 82, 255, 0.35);
+  flex-shrink: 0;
+}
+
+/* ---- Team Image ---- */
+.champ-image-wrap {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 44px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(141, 82, 255, 0.5);
+  box-shadow:
+    0 0 0 1px rgba(141, 82, 255, 0.2),
+    0 8px 40px rgba(109, 40, 217, 0.45),
+    0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.champ-team-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 340px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.champ-image-wrap:hover .champ-team-img {
+  transform: scale(1.03);
+}
+
+.champ-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(10, 0, 16, 0.75) 0%,
+    rgba(10, 0, 16, 0.1) 50%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.champ-img-label {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(220, 200, 255, 0.85);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* ---- CTA ---- */
+.champ-cta-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.champ-cta-primary,
+.champ-cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 32px;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+  cursor: pointer;
+}
+
+.champ-cta-primary {
+  background: var(--gradient-primary, linear-gradient(90deg, #5B2CCB 0%, #7D43E6 55%, #8D52FF 100%));
+  color: #fff;
+  box-shadow: 0 4px 24px rgba(109, 40, 217, 0.6), 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.champ-cta-primary:hover,
+.champ-cta-primary:focus-visible {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 36px rgba(109, 40, 217, 0.8), 0 2px 8px rgba(0,0,0,0.3);
+  outline: none;
+}
+
+.champ-cta-secondary {
+  background: transparent;
+  color: #c4a0ff;
+  border: 2px solid rgba(141, 82, 255, 0.55);
+  box-shadow: 0 2px 12px rgba(109, 40, 217, 0.2);
+}
+
+.champ-cta-secondary:hover,
+.champ-cta-secondary:focus-visible {
+  background: rgba(109, 40, 217, 0.18);
+  border-color: rgba(141, 82, 255, 0.85);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 24px rgba(109, 40, 217, 0.4);
+  outline: none;
+  color: #ddc8ff;
+}
+
+/* ---- Bottom Stars ---- */
+.champ-bottom-stars {
+  position: relative;
+  z-index: 2;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 0 0;
+  border-top: 1px solid rgba(141, 82, 255, 0.2);
+}
+
+.champ-bottom-stars span {
+  color: rgba(141, 82, 255, 0.4);
+  font-size: 1rem;
+  animation: champ-star-twinkle 2.5s ease-in-out infinite alternate;
+}
+
+.champ-bottom-stars span:nth-child(even) {
+  animation-delay: 0.5s;
+  color: rgba(245, 197, 24, 0.3);
+}
+
+/* =============================================
+   RESPONSIVE — MOBILE
+   ============================================= */
+@media (max-width: 768px) {
+  .champ-container {
+    padding: 44px 18px 0;
+  }
+
+  .champ-trophy-icon {
+    font-size: 4rem;
+  }
+
+  .champ-stats-strip {
+    gap: 16px;
+    padding: 18px 16px;
+  }
+
+  .champ-stat-item {
+    padding: 0 16px;
+    min-width: 80px;
+  }
+
+  .champ-stat-divider {
+    height: 36px;
+  }
+
+  .champ-cta-wrap {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .champ-cta-primary,
+  .champ-cta-secondary {
+    width: 100%;
+    justify-content: center;
+    max-width: 320px;
+  }
+
+  .champ-ribbon {
+    font-size: 0.72rem;
+    gap: 12px;
+  }
+
+  .champ-bottom-stars span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .champ-stat-divider {
+    display: none;
+  }
+
+  .champ-stats-strip {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .champ-stat-item {
+    padding: 8px 0;
+    width: 100%;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .champ-stat-num {
+    font-size: 1.5rem;
+  }
+
+  .champ-team-name {
+    letter-spacing: -0.01em;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
