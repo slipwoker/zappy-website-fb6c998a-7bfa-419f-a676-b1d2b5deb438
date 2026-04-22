@@ -13546,6 +13546,425 @@ body.accessibility-widget-visible ._access-menu {
     letter-spacing: -0.01em;
   }
 }
+
+/* AI-generated section */
+/* ===== GADER SUBSCRIPTION SECTION ===== */
+.gader-subscription-section {
+  position: relative;
+  background: linear-gradient(135deg, #0d0a1a 0%, #1a1030 40%, #0f0820 100%);
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  overflow: hidden;
+}
+
+/* Background decorative overlay */
+.gader-sub-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 20%, rgba(109, 40, 217, 0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 20% 80%, rgba(93, 44, 203, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Container */
+.gader-sub-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+.gader-sub-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.gader-sub-league-badge {
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(109,40,217,0.35) 0%, rgba(141,82,255,0.35) 100%);
+  border: 1px solid rgba(141, 82, 255, 0.5);
+  color: #c4a8ff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 50px;
+  margin-bottom: 18px;
+}
+
+.gader-sub-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #ffffff 0%, #c4a8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gader-sub-description {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ===== CONTENT LAYOUT ===== */
+.gader-sub-content {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 48px;
+  align-items: center;
+}
+
+/* ===== INFO BLOCK (LEFT) ===== */
+.gader-sub-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.gader-sub-icon-wrap {
+  width: 72px;
+  height: 72px;
+}
+
+.gader-sub-icon {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 12px rgba(141, 82, 255, 0.5));
+}
+
+.gader-sub-label-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gader-sub-tier-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a78bfa;
+}
+
+.gader-sub-tier-name {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.gader-sub-info-text {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.8;
+  margin: 0;
+  max-width: 480px;
+}
+
+/* Benefits List */
+.gader-sub-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gader-sub-benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+}
+
+.gader-benefit-icon {
+  color: #8D52FF;
+  font-size: 14px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 6px rgba(141, 82, 255, 0.7));
+}
+
+/* ===== PRICING CARD (RIGHT) ===== */
+.gader-sub-card {
+  position: relative;
+  background: linear-gradient(160deg, rgba(255,255,255,0.07) 0%, rgba(109,40,217,0.12) 100%);
+  border: 1px solid rgba(141, 82, 255, 0.35);
+  border-radius: 20px;
+  padding: 36px 32px;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(141, 82, 255, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gader-sub-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 28px 80px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(141, 82, 255, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Glow effect */
+.gader-card-glow {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(109, 40, 217, 0.35) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.gader-sub-card > *:not(.gader-card-glow) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Card Top */
+.gader-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.gader-card-badge {
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(109,40,217,0.4) 0%, rgba(141,82,255,0.4) 100%);
+  border: 1px solid rgba(141, 82, 255, 0.45);
+  color: #c4a8ff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 5px 14px;
+  border-radius: 50px;
+}
+
+.gader-card-tier {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gader-card-tier-icon {
+  font-size: 22px;
+}
+
+.gader-card-tier-text {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Price */
+.gader-card-price-wrap {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.gader-card-price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.gader-price-amount {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1;
+  background: linear-gradient(135deg, #ffffff 0%, #c4a8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gader-price-currency {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #a78bfa;
+  padding-top: 10px;
+  -webkit-text-fill-color: #a78bfa;
+}
+
+.gader-price-period {
+  display: block;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* Divider */
+.gader-card-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(141, 82, 255, 0.4), transparent);
+  margin-bottom: 24px;
+}
+
+/* Card Features */
+.gader-card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gader-card-feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.gader-feature-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background: linear-gradient(135deg, #6D28D9, #8D52FF);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(109, 40, 217, 0.5);
+}
+
+/* CTA Button */
+.gader-card-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 16px 24px;
+  background: linear-gradient(90deg, #5B2CCB 0%, #7D43E6 55%, #8D52FF 100%);
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  box-shadow: 0 8px 24px rgba(109, 40, 217, 0.45);
+  letter-spacing: 0.02em;
+  margin-bottom: 14px;
+}
+
+.gader-card-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(109, 40, 217, 0.6);
+  filter: brightness(1.08);
+}
+
+.gader-card-cta:focus-visible {
+  outline: 3px solid #8D52FF;
+  outline-offset: 3px;
+}
+
+.gader-card-cta:active {
+  transform: translateY(0);
+}
+
+/* WhatsApp Icon in CTA */
+.gader-cta-whatsapp-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.gader-cta-whatsapp-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+/* Card Note */
+.gader-card-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .gader-sub-content {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .gader-sub-card {
+    max-width: 420px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .gader-sub-info {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .gader-subscription-section {
+    padding: 60px 16px;
+  }
+
+  .gader-sub-header {
+    margin-bottom: 40px;
+  }
+
+  .gader-sub-title {
+    font-size: 1.7rem;
+  }
+
+  .gader-sub-card {
+    padding: 28px 22px;
+  }
+
+  .gader-price-amount {
+    font-size: 4rem;
+  }
+
+  .gader-card-cta {
+    font-size: 0.98rem;
+    padding: 14px 18px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
